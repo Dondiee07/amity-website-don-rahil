@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity University Dubai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Explore and Choose your career Path with us </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Diplomas & Short Courses:- Leadership,It,Logistics and Supply chain,Marketing and Sales</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Bachelor's degrees:- Buisness school , School of engineering, Architecture and Interior Design</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Masters Degree:- Amity Business School, School of Humanities,Arts and Applied Sciences</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p></p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/library.png">
+                <h3>World Class Library</h3>
+                <p>Thousands of Books,national and inteernational covering all aspects of academic studies and research
+                    material is what you shall find at Amity university Dubai</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Our university has an active and vibarant sporting culture,as it plays a pivotal role in shaping
+                    ones's personality and maintaining good health</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Amity university dubai,has an exqusite dining options for both students and faculty,you can choose to
+                    enjoy a cup of coffee or have lunch in our cafeteria. Students have access to Tim Horton's coffee
+                    shop on campus and are eligible for a discount using their student id </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Established in 2011, Amity University Dubai is the premier international university in the region,
+            and is licensed by the UAE Ministry of education and the Knowledge and Human Development Authority(KHDA).
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Rahil and Dondrof</p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+
+    </script>
+
+</body>
+
+</html>
